@@ -1,0 +1,121 @@
+[01:10:18] [main/INFO]: Loading Minecraft 1.21.10 with Fabric Loader 0.18.2
+[01:10:19] [main/WARN]: Warnings were found!
+ - Mod 'Forge Config API Port' (forgeconfigapiport) 21.10.1 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+[01:10:19] [main/INFO]: Loading 53 mods:
+	- cloth-config 20.0.149
+	   \-- cloth-basic-math 0.6.1
+	- collective 8.13
+	- enchantinginfuser 21.10.0
+	- fabric-api 0.138.3+1.21.10
+	   |-- fabric-api-base 1.0.0+14b92d896f
+	   |-- fabric-api-lookup-api-v1 1.6.106+d17682156f
+	   |-- fabric-biome-api-v1 16.1.0+c2417d4f6f
+	   |-- fabric-block-api-v1 1.1.5+d17682156f
+	   |-- fabric-block-view-api-v2 1.0.34+e4fd1b926f
+	   |-- fabric-command-api-v2 2.4.0+c0ab2d5d6f
+	   |-- fabric-content-registries-v0 10.2.6+b6a242646f
+	   |-- fabric-convention-tags-v1 2.1.49+7f945d5b6f
+	   |-- fabric-convention-tags-v2 2.17.0+ff7bc77d6f
+	   |-- fabric-crash-report-info-v1 0.3.18+33df5e6e6f
+	   |-- fabric-data-attachment-api-v1 1.8.33+cd3b9e596f
+	   |-- fabric-data-generation-api-v1 23.2.27+d8b85ef16f
+	   |-- fabric-dimensions-v1 4.0.22+38b9cc196f
+	   |-- fabric-entity-events-v1 2.1.13+fde3702c6f
+	   |-- fabric-events-interaction-v0 4.0.36+5ba217126f
+	   |-- fabric-game-rule-api-v1 1.1.1+e47eaae56f
+	   |-- fabric-item-api-v1 11.5.11+9bce411b6f
+	   |-- fabric-item-group-api-v1 4.2.27+86b3ae576f
+	   |-- fabric-key-binding-api-v1 1.1.1+b3ba9c486f
+	   |-- fabric-lifecycle-events-v1 2.6.9+33df5e6e6f
+	   |-- fabric-loot-api-v2 3.0.67+3f89f5a56f
+	   |-- fabric-loot-api-v3 2.0.14+d17682156f
+	   |-- fabric-message-api-v1 6.1.7+3154c1c86f
+	   |-- fabric-model-loading-api-v1 6.0.4+3ffd6ef06f
+	   |-- fabric-networking-api-v1 5.1.0+b095d8db6f
+	   |-- fabric-object-builder-api-v1 21.1.28+9bce411b6f
+	   |-- fabric-particles-v1 4.2.3+a0ee59a46f
+	   |-- fabric-recipe-api-v1 8.2.0+39709ef06f
+	   |-- fabric-registry-sync-v0 6.1.42+679c8c5c6f
+	   |-- fabric-renderer-api-v1 7.2.2+3706cdf36f
+	   |-- fabric-renderer-indigo 4.1.3+d7df91576f
+	   |-- fabric-rendering-fluids-v1 3.1.38+86b3ae576f
+	   |-- fabric-rendering-v1 16.2.0+bee81f016f
+	   |-- fabric-resource-conditions-api-v1 5.0.28+33df5e6e6f
+	   |-- fabric-resource-loader-v0 3.3.1+d4d4122a6f
+	   |-- fabric-resource-loader-v1 1.0.4+14959b836f
+	   |-- fabric-screen-api-v1 3.1.0+9c82a7986f
+	   |-- fabric-screen-handler-api-v1 1.3.151+d17682156f
+	   |-- fabric-serialization-api-v1 1.0.0+d857c9766f
+	   |-- fabric-sound-api-v1 1.0.45+328a75ba6f
+	   |-- fabric-tag-api-v1 1.2.13+2fa446b26f
+	   |-- fabric-transfer-api-v1 6.0.15+79ec2c126f
+	   \-- fabric-transitive-access-wideners-v1 6.5.3+41eb43436f
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- fallingtree 1.21.10.1
+	- forgeconfigapiport 21.10.1
+	   |-- com_electronwill_night-config_core 3.8.3
+	   \-- com_electronwill_night-config_toml 3.8.3
+	- geckolib 5.3-alpha-3
+	- java 21
+	- lootr 1.21.10-1.18.32.99
+	- minecraft 1.21.10
+	- oreharvester 1.5
+	- puzzleslib 21.10.8
+[01:10:19] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/vainilla/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[01:10:19] [main/INFO]: Compatibility level set to JAVA_21
+[01:10:19] [main/WARN]: Reference map 'enchantinginfuser.common.refmap.json' for enchantinginfuser.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:10:19] [main/WARN]: Reference map 'enchantinginfuser.fabric.refmap.json' for enchantinginfuser.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:10:19] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:10:19] [main/WARN]: Reference map 'forgeconfigapiport.fabric.refmap.json' for forgeconfigapiport.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:10:19] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[01:10:25] [main/INFO]: Loading Collective version 8.13.
+[01:10:25] [main/INFO]: Constructing components for enchantinginfuser:common
+[01:10:26] [main/INFO]: Constructing components for puzzleslib:common
+[01:10:26] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[01:10:28] [main/INFO]: Loaded 1463 recipes
+[01:10:28] [main/INFO]: Loaded 1586 advancements
+[01:10:28] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.437 ms
+[01:10:28] [Server thread/INFO]: Dispatching loading event for config enchantinginfuser-server.toml
+[01:10:28] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[01:10:28] [Server thread/INFO]: Loading properties
+[01:10:28] [Server thread/INFO]: Default game type: SURVIVAL
+[01:10:28] [Server thread/INFO]: Generating keypair
+[01:10:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:10:28] [Server thread/INFO]: Using epoll channel type
+[01:10:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:10:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:10:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:10:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:10:28] [Server thread/INFO]: Preparing level "world"
+[01:10:29] [Server thread/INFO]: Loading 0 persistent chunks...
+[01:10:29] [Server thread/INFO]: Preparing spawn area: 100%
+[01:10:29] [Server thread/INFO]: Time elapsed: 70 ms
+[01:10:29] [Server thread/INFO]: Done (0.482s)! For help, type "help"
+[01:11:29] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[01:11:58] [Server thread/INFO]: giovanni17151[/127.48.37.198:44681] logged in with entity id 36 at (255.25412945834447, -26.0, 1605.7672446141073)
+[01:11:59] [Server thread/INFO]: giovanni17151 joined the game
+[01:12:00] [Server thread/INFO]: Wicho_18 (0da49a1e-bf05-363f-ae88-1e1355ecb439) lost connection: Disconnected
+[01:12:15] [Server thread/INFO]: Wicho_18 (0da49a1e-bf05-363f-ae88-1e1355ecb439) lost connection: Disconnected
+[01:17:24] [Server thread/INFO]: Wicho_18[/127.181.129.43:57699] logged in with entity id 816 at (254.67644219502841, -26.0, 1606.3168057672945)
+[01:17:24] [Server thread/INFO]: Wicho_18 joined the game
+[01:20:29] [Server thread/INFO]: giovanni17151 lost connection: Timed out
+[01:20:29] [Server thread/INFO]: giovanni17151 left the game
+[01:20:29] [Server thread/WARN]: handleDisconnection() called twice
+[01:20:36] [Server thread/INFO]: giovanni17151[/127.48.37.198:37763] logged in with entity id 1358 at (259.40396479268037, -26.0, 1608.4946531036283)
+[01:20:36] [Server thread/INFO]: giovanni17151 joined the game
+[01:25:27] [Server thread/INFO]: giovanni17151 has made the advancement [The End?]
+[01:25:29] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[01:25:29] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[01:25:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2925ms or 58 ticks behind
+[01:25:30] [Server thread/INFO]: Wicho_18 has made the advancement [The End?]
+[01:30:50] [Server thread/INFO]: Wicho_18 was doomed to fall by Ender Dragon
+[01:32:10] [Server thread/INFO]: Wicho_18 has made the advancement [Free the End]
+[01:32:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11318ms or 226 ticks behind
+[01:32:53] [Server thread/INFO]: Wicho_18 has reached the goal [The Next Generation]
+[01:33:18] [Server thread/INFO]: giovanni17151 lost connection: Disconnected
+[01:33:18] [Server thread/INFO]: giovanni17151 left the game
+[01:38:10] [Server thread/INFO]: Wicho_18 lost connection: Timed out
+[01:38:10] [Server thread/INFO]: Wicho_18 left the game
+[01:39:10] [Server thread/INFO]: Server empty for 60 seconds, pausing
